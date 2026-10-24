@@ -1,0 +1,12 @@
+uk/ac/westminster/products_api/Product.class
+uk/ac/westminster/products_api/ProductController.class
+uk/ac/westminster/products_api/PhysicalProduct.class
+uk/ac/westminster/products_api/Customer.class
+uk/ac/westminster/products_api/Address.class
+uk/ac/westminster/products_api/HelloController.class
+uk/ac/westminster/products_api/ProductsApiApplication.class
+uk/ac/westminster/products_api/ProductService.class
+uk/ac/westminster/products_api/DigitalProduct.class
+uk/ac/westminster/products_api/CustomerController.class
+uk/ac/westminster/products_api/InfoController.class
+uk/ac/westminster/products_api/Person.class
