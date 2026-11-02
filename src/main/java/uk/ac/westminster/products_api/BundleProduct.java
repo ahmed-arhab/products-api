@@ -23,6 +23,11 @@ public class BundleProduct extends Product {
         this.items = items != null ? items : new ArrayList<>();
     }
 
+    @Override
+    public String getSummary() {
+        return "Bundle: " + getName() + " | Items: " + (items != null ? items.size() : 0);
+    }
+
     public List<Product> getItems() {
         return items;
     }

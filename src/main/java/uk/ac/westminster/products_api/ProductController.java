@@ -22,6 +22,11 @@ public class ProductController {
         return productService.getAllProducts();
     }
 
+    @GetMapping("/products/summaries")
+    public List<String> getSummaries() {
+        return productService.getAllSummaries();
+    }
+
     // Literal path - must NOT be /products/{name} or it clashes with GET by id
     @GetMapping("/products/search")
     public List<Product> search(@RequestParam String name) {
@@ -33,8 +38,9 @@ public class ProductController {
         return productService.getProductById(id).orElse(null);
     }
 
+    // Temporary fix: Product is now abstract so Jackson cannot instantiate it directly
     @PostMapping("/products")
-    public Product addProduct(@RequestBody Product product) {
+    public Product addProduct(@RequestBody DigitalProduct product) {
         return productService.addProduct(product);
     }
 

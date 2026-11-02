@@ -2,6 +2,8 @@ uk/ac/westminster/products_api/Product.class
 uk/ac/westminster/products_api/ProductController.class
 uk/ac/westminster/products_api/PhysicalProduct.class
 uk/ac/westminster/products_api/Customer.class
+uk/ac/westminster/products_api/Discountable.class
+uk/ac/westminster/products_api/BundleProduct.class
 uk/ac/westminster/products_api/Address.class
 uk/ac/westminster/products_api/HelloController.class
 uk/ac/westminster/products_api/ProductsApiApplication.class
